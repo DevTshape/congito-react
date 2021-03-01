@@ -3,7 +3,9 @@ import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 
 const App = () => (
   <div>
-    <AmplifySignOut />
+    <div style={{ width: "50%", margin: "auto" }}>
+      <AmplifySignOut />
+    </div>
     My App
   </div>
 );
